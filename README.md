@@ -7,7 +7,7 @@
 
 win11标准版计算器(左图)	              java(GUI)制作(右图)
 
-​		项目源码已上传至Github网站：
+​		项目源码已上传至Github网站：https://github.com/xsb-mushan/JavaProject
 
 ## 项目内容
 

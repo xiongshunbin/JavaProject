@@ -1,11 +1,13 @@
 # java项目之百词斩(GUI编程)
 
-​		该项目为java期末实训内容，敲了两天的代码终于完工了，由于时间紧迫，百词斩的界面做的比较粗糙、丑陋，仅实现了内部的算法。必定还存在疏漏，欢迎读者批评和指正。注意：测试用的文本文件Word.txt放到工程目录下面。
-如图所示：![image](https://user-images.githubusercontent.com/102899234/175303168-fe93af47-843f-48a3-a2dd-e2d80799eabf.png)
+​该项目为java期末实训内容，敲了两天的代码终于完工了，由于时间紧迫，百词斩的界面做的比较粗糙、丑陋，仅实现了内部的算法。必定还存在疏漏，欢迎读者批评和指正。注意：测试用的文本文件Word.txt放到工程目录下面。如图所示：![image](https://user-images.githubusercontent.com/102899234/175509190-77f22551-ea61-4465-a57c-1f5b0c3f46f7.png)
 
+程序运行效果如图所示：
+
+<img width="302" alt="image" src="https://user-images.githubusercontent.com/102899234/175509953-dee715a5-162b-4df2-8002-c467d0567759.png"><img width="302" alt="image" src="https://user-images.githubusercontent.com/102899234/175510010-a5224231-a1d5-4c28-9652-50cb80ddd518.png">
 ## 项目内容
 
-​		模仿“百词斩”手机App，设计并用Java语言实现一个“百词斩”图形界面程序。
+​模仿“百词斩”手机App，设计并用Java语言实现一个“百词斩”图形界面程序。
 
 #  项目要求
 

@@ -4,6 +4,17 @@ public class Word {
     private String word;
     private String s1,s2,s3,s4;
     private String answer;
+    private int state;
+
+    public String getSelection() {
+        return selection;
+    }
+
+    public void setSelection(String selection) {
+        this.selection = selection;
+    }
+
+    private String selection;
 
     public int getState() {
         return state;
@@ -13,7 +24,7 @@ public class Word {
         this.state = state;
     }
 
-    private int state;
+
     public String getWord() {
         return word;
     }

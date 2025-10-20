@@ -1,0 +1,7 @@
+2025-08-27 21:51:00.825 [main] INFO  com.mushan.weblog.web.WeblogWebApplicationTests - Starting WeblogWebApplicationTests using Java 1.8.0_311 on mushan with PID 5724 (started by mushan in E:\Code\Java\weblog\weblog-springboot\weblog-web)
+2025-08-27 21:51:00.827 [main] INFO  com.mushan.weblog.web.WeblogWebApplicationTests - The following profiles are active: prod
+2025-08-27 21:51:03.415 [main] INFO  com.mushan.weblog.web.WeblogWebApplicationTests - Started WeblogWebApplicationTests in 3.34 seconds (JVM running for 4.854)
+2025-08-27 21:51:03.758 [main] INFO  com.mushan.weblog.web.WeblogWebApplicationTests - 这是一行 Info 级别日志
+2025-08-27 21:51:03.758 [main] WARN  com.mushan.weblog.web.WeblogWebApplicationTests - 这是一行 Warn 级别日志
+2025-08-27 21:51:03.766 [main] ERROR com.mushan.weblog.web.WeblogWebApplicationTests - 这是一行 Error 级别日志
+2025-08-27 21:51:03.766 [main] INFO  com.mushan.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：木杉

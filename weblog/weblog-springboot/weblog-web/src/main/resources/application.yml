@@ -1,0 +1,7 @@
+# 应用服务 WEB 访问端口
+#server.port=8080
+
+spring:
+  profiles:
+    # 默认激活 dev 环境
+    active: dev

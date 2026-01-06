@@ -7,8 +7,8 @@
     <property scope="context" name="appName" value="weblog" />
     <!-- 自定义日志输出路径，以及日志名称前缀 -->
     <property name="LOG_FILE" value="/app/weblog/logs/${appName}.%d{yyyy-MM-dd}"/>
-<!--    <property name="LOG_FILE" value="E:\\Code\\Java\\weblog\\weblog-springboot\\logs\\${appName}.%d{yyyy-MM-dd}"/>-->
-    <property name="FILE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"/>
+<!--    <property name="LOG_FILE" value="E:\\Code\\Repository\\JavaProject\\weblog\\weblog-springboot\\logs\\${appName}.%d{yyyy-MM-dd}"/>-->
+    <property name="FILE_LOG_PATTERN" value="[TraceId: %X{traceId}] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"/>
     <!--<property name="CONSOLE_LOG_PATTERN" value="${FILE_LOG_PATTERN}"/>-->
 
     <!-- 按照每天生成日志文件 -->
@@ -32,7 +32,7 @@
     <!-- dev 环境（仅输出到控制台） -->
     <springProfile name="dev">
         <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
-        <root level="info">
+        <root level="INFO">
             <appender-ref ref="CONSOLE" />
         </root>
     </springProfile>

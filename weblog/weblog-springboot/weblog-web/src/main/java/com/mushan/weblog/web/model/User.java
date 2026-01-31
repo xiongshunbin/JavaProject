@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.validation.constraints.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * @author: mushan
@@ -34,4 +37,11 @@ public class User {
     @Email(message = "邮箱格式不正确") // 注解确保邮箱格式正确
     @ApiModelProperty(value = "邮箱")
     private String email;
+
+    // 创建时间
+    private LocalDateTime createTime;
+    // 更新日期
+    private LocalDate updateDate;
+    // 时间
+    private LocalTime time;
 }

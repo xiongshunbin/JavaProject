@@ -2,8 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <!-- 指定父项目为 weblog-springboot -->
     <parent>
         <groupId>com.mushan</groupId>
         <artifactId>weblog-springboot</artifactId>
@@ -11,16 +9,11 @@
     </parent>
 
     <groupId>com.mushan</groupId>
-    <artifactId>weblog-module-admin</artifactId>
-    <name>weblog-module-admin</name>
-    <description>weblog-admin (负责管理后台相关功能)</description>
+    <artifactId>weblog-module-jwt</artifactId>
+    <name>weblog-module-jwt</name>
+    <description>weblog-module-jwt (JWT 模块，管理用户认证、鉴权)</description>
 
     <dependencies>
-        <dependency>
-            <groupId>com.mushan</groupId>
-            <artifactId>weblog-module-common</artifactId>
-        </dependency>
-
         <!-- 免写冗余的 Java 样板式代码 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -35,23 +28,11 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- knife4j -->
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.mushan</groupId>
-            <artifactId>weblog-module-jwt</artifactId>
-        </dependency>
-
         <!-- Spring Security -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>

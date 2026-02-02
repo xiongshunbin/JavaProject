@@ -18,7 +18,10 @@ public enum ResponseCodeEnum implements BaseExceptionInterface {
     PARAM_NOT_VALID("10001", "参数错误"),
 
     // ----------- 业务异常状态码 -----------
-    PRODUCT_NOT_FOUND("20000", "该产品不存在（测试使用）"),
+    // PRODUCT_NOT_FOUND("20000", "该产品不存在（测试使用）"),
+    LOGIN_FAIL("20000", "登录失败"),
+    USERNAME_OR_PWD_ERROR("20001", "用户名或密码错误"),
+
     ;
 
     // 异常码

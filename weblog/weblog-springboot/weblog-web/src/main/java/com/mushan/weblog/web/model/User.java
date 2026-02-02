@@ -20,6 +20,7 @@ public class User {
     @NotBlank(message = "用户名不能为空")  // 注解确保用户名不为空
     @ApiModelProperty(value = "用户名")
     private String username;
+
     // 性别
     @NotNull(message = "性别不能为空")    // 注解确保性别不为空
     @ApiModelProperty(value = "用户性别")

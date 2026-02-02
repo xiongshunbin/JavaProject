@@ -11,3 +11,10 @@ spring:
     # default-property-inclusion: non_null
     # 设置日期字段格式
     # date-format: yyyy-MM-dd HH:mm:ss
+
+jwt:
+  # 签发人
+  issuer: mushan
+  # 秘钥
+  secret: jElxcSUj38+Bnh73T68lNs0DfBSit6U3whQlcGO2XwnI+Bo3g4xsiCIPg8PV/L0fQMis08iupNwhe2PzYLB9Xg==
+

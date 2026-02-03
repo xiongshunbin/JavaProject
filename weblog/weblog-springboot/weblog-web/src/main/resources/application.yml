@@ -17,4 +17,10 @@ jwt:
   issuer: mushan
   # 秘钥
   secret: jElxcSUj38+Bnh73T68lNs0DfBSit6U3whQlcGO2XwnI+Bo3g4xsiCIPg8PV/L0fQMis08iupNwhe2PzYLB9Xg==
+  # token 过期时间（单位：分钟） 24*60
+  tokenExpireTime: 1440
+  # token 请求头中的 key 值
+  tokenHeaderKey: Authorization
+  # token 请求头中的 value 值前缀
+  tokenPrefix: Bearer
 
